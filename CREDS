@@ -1,0 +1,40 @@
+https://www.codechef.com/submit/CREDS?tab=statement
+
+THIS NOT RIGHT ANSWER BUT WHY ? -
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,x,y,z;
+	cin>>t;
+	cin>>x;
+	cin>>y;
+	cin>>z;
+	
+	cout<<4*x+2*y+0*z;
+	
+	
+	return 0;
+}
+
+
+
+
+
+THIS IS RIGHT ANSWER
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y,z;
+	    cin>>x>>y>>z;
+	    cout<<(x*4)+(y*2)<<endl;
+	}
+	return 0;
+}

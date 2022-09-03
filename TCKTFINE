@@ -1,0 +1,27 @@
+https://www.codechef.com/submit/TCKTFINE
+
+
+MY SOLUTION
+
+#include <iostream>
+using namespace std;
+
+int main() {
+int n;
+cin>>n;
+
+while(n--){
+    
+    int x, y,z;
+    cin>>z;
+    cin>>x;
+   cin >>y;
+    
+    int s=x-y;
+    
+    cout<<s*z<<endl;
+    
+}
+
+	return 0;
+}

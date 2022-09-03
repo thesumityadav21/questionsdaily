@@ -1,0 +1,28 @@
+https://www.codechef.com/submit/VOLCONTROL
+
+
+MY SOLUTION
+
+#include <iostream>
+using namespace std;
+
+int main(){
+int t;
+cin>>t;
+
+while(t--){
+    
+  
+  int x,y;
+    cin>>x;
+    cin>>y;
+    
+    if(y>x){
+    int s = y-x;
+    cout<<s<<endl;
+    }
+    else{
+    int t = x-y;
+    cout<<t<<endl;}
+
+}}

@@ -1,0 +1,29 @@
+
+https://www.w3resource.com/cpp-exercises/for-loop/index.php#EDITOR
+
+2. Write a program in C++ to find the sum of first 10 natural numbers. Go to the editor
+Sample Output:
+Find the first 10 natural numbers:
+---------------------------------------
+The natural numbers are:
+1 2 3 4 5 6 7 8 9 10 
+The sum of first 10 natural numbers: 55
+
+
+MY SOLUTION - 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i,sum = 0;
+    int n;
+    cin>>n;
+
+    for (i = 1; i <= n; i++) 
+    {
+        cout << i << " ";
+		sum=sum+i;
+    }
+     cout << "\n The sum of first 10 natural numbers: "<<sum << endl;
+}
